@@ -4,6 +4,7 @@ node_modules
 npm-debug.log
 coverage/
 run
+dist
 public
 .cache
 .DS_Store

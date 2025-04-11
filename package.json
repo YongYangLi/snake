@@ -1,19 +1,11 @@
 {
-  "name": "snake",
-  "version": "1.0.0",
-  "description": "snake",
-  "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "parcel index.html",
-    "build": "rimraf dist && parcel build index.html --public-url ./",
-    "deploy": "npm run build && node deploy.js"
+    "dev": "vite",
+    "build": "vite build --base=/snake/",
+    "preview": "vite preview"
   },
-  "author": "liyongyang",
-  "license": "ISC",
-  "dependencies": {
-    "gh-pages": "^3.0.0",
-    "parcel": "^1.12.4",
+  "devDependencies": {
+    "vite": "^4.4.0",
     "rimraf": "^3.0.2",
     "typescript": "^3.9.3"
   }
